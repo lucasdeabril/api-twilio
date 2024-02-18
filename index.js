@@ -1,9 +1,7 @@
-const TWILIO_ACCOUNT_SID = 'AC28c81c5f7e86e47f0fd9fcfa8aa9e26e';
+const TWILIO_ACCOUNT_SID = 'YOUR ACCOUNT SID';
 const http = require('http');
-const codigo1 = "c57bf5f4c3fde84a";
-const codigo2 = "3d9135c63a59631b";
 const TWILIO_AUTH_TOKEN = codigo1 + codigo2;
-const verifySid = 'VAdbbb6ea279b4c1b47c37120ff3766aee';
+const verifySid = 'YOUR VERIFY SID';
 const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 const express = require('express');
 const app = express();
